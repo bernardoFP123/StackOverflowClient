@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StackOverflowClient</string>
+    <string name="buscar_preguntas">Búsqueda</string>
+    <string name="questions_list_screen_title">Preguntas</string>
+</resources>

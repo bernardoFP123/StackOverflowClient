@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimary"
+    android:padding="5dp">
+    <EditText
+        android:id="@+id/editTextSearchString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/buscar_preguntas"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorHintLight"
+        android:backgroundTint="@color/colorHintLight"
+        android:imeOptions="actionDone"
+        />
+    <ImageView
+        android:id="@+id/imageViewClearButton"
+        android:foregroundGravity="right"
+        android:layout_width="@dimen/search_button_size"
+        android:layout_height="@dimen/search_button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_close_black_24dp"
+        android:tint="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+</RelativeLayout>
